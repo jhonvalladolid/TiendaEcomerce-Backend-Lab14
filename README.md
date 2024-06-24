@@ -26,11 +26,13 @@ Este es el proyecto backend para J&N Moda, una tienda en línea de moda. Esta ap
 
 3. **Activar el entorno virtual**
 
+   En Windows:
+
    ```bash
-   ent_virtual\Scripts\activate  # En Windows
+   ent_virtual\Scripts\activate
    ```
 
-   O en Unix/MacOS
+   O en Unix/MacOS:
 
    ```bash
    source ent_virtual/bin/activate
@@ -42,10 +44,17 @@ Este es el proyecto backend para J&N Moda, una tienda en línea de moda. Esta ap
    cd TiendaEcomerce-Backend-Lab14
    ```
 
-5. **Instalar dependencias**
+5. **Instalar dependencias desde el archivo `requirements.txt`**
 
    ```bash
-   pip install django djangorestframework django-cors-headers Pillow
+   pip install -r requirements.txt
+   ```
+
+   Si algunas dependencias no se instalaron correctamente, instálalas manualmente:
+
+   ```bash
+   pip install python-dotenv
+   pip install str2bool
    ```
 
    Dependencias que se están instalando:
@@ -53,6 +62,11 @@ Este es el proyecto backend para J&N Moda, una tienda en línea de moda. Esta ap
    - `djangorestframework`: Un paquete para construir APIs RESTful con Django.
    - `django-cors-headers`: Un paquete para manejar CORS (Cross-Origin Resource Sharing) en Django.
    - `Pillow`: Una librería para manejar archivos de imagen en Python.
+   - `python-dotenv`: Un paquete para manejar archivos .env en Python.
+   - `str2bool`: Un paquete para convertir cadenas en booleanos.
+   - `django-admin-soft-dashboard`: Un paquete para el dashboard administrativo.
+   - `whitenoise`: Un paquete para servir archivos estáticos en producción.
+   - `gunicorn`: Un servidor HTTP WSGI para aplicaciones Python.
 
 6. **Crear un superusuario**
 
@@ -103,4 +117,4 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 Para más detalles sobre la configuración y el uso de Django, consulta la [documentación oficial](https://docs.djangoproject.com/en/stable/).
 ```
 
-Este archivo README.md proporciona una guía clara y detallada para la instalación y configuración del proyecto, incluyendo ambos comandos para iniciar el servidor de desarrollo y crear un superusuario.
+Este archivo README.md proporciona una guía clara y detallada para la instalación y configuración del proyecto, incluyendo todos los pasos necesarios para instalar las dependencias y configurar el entorno de desarrollo.
