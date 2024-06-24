@@ -54,7 +54,11 @@ Este es el proyecto backend para J&N Moda, una tienda en línea de moda. Esta ap
 
    ```bash
    python manage.py createsuperuser
-   # O en sistemas donde el comando python se usa de forma diferente:
+   ```
+
+   O en sistemas donde el comando python se usa de forma diferente:
+
+   ```bash
    py manage.py createsuperuser
    ```
 
@@ -64,7 +68,10 @@ Para iniciar la aplicación en modo de desarrollo, usa uno de los siguientes com
 
 ```bash
 python manage.py runserver
-# O en sistemas donde el comando python se usa de forma diferente:
+```
+O en sistemas donde el comando python se usa de forma diferente:
+
+```bash
 py manage.py runserver
 ```
 
