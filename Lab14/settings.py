@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'rest_framework',
+    'rest_framework.authtoken',
     'moda_ecommerce',
     'corsheaders',  # Add corsheaders
     'django.contrib.admin',
