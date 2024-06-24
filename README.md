@@ -28,7 +28,11 @@ Este es el proyecto backend para J&N Moda, una tienda en línea de moda. Esta ap
 
    ```bash
    ent_virtual\Scripts\activate  # En Windows
-   # O en Unix/MacOS
+   ```
+
+   O en Unix/MacOS
+
+   ```bash
    source ent_virtual/bin/activate
    ```
 
