@@ -1,4 +1,3 @@
-```markdown
 # J&N Moda - Backend
 
 Este es el proyecto backend para J&N Moda, una tienda en línea de moda. Esta aplicación ha sido desarrollada con Django y Django REST Framework.
