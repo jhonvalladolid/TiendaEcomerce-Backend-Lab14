@@ -2,7 +2,7 @@
 *.DS_Store
 *.egg*
 /dist/
-/.idea
+/idea
 /docs/_build/
 /node_modules/
 build/
@@ -10,7 +10,7 @@ env
 /staticfiles/
 
 #src
-#*.sqlite*
+db.sqlite3
 
 #.env
 node_modules
