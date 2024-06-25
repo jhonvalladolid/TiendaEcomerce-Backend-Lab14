@@ -1,4 +1,4 @@
-# moda_ecommerce/views.py
+from django.shortcuts import render
 from rest_framework import viewsets
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -6,6 +6,10 @@ from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
 from .models import Categoria, Producto, Cliente, Venta
 from .serializers import CategoriaSerializer, ProductoSerializer, ClienteSerializer, VentaSerializer
+
+def index(request):
+    # Page from the theme 
+    return render(request, 'pages/index.html')
 
 class CategoriaViewSet(viewsets.ModelViewSet):
     queryset = Categoria.objects.all()
