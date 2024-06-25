@@ -16,3 +16,7 @@ env
 node_modules
 
 db.sqlite3
+
+# Python cache files
+__pycache__/
+*.py[cod]
